@@ -37,7 +37,7 @@ public Q_SLOTS:
 {% endfor %}
 
 
-public Q_SIGNALS:
+Q_SIGNALS:
 {% for member in public_members %}
     void {{ member.name }}Changed({{ member.type|arg_type }} {{ member.name }});
 {% endfor %}
