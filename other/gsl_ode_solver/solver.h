@@ -13,7 +13,7 @@
 #include <gsl/gsl_errno.h>
 
 
-#include <iostream>
+#include <stdio.h>
 
 
 /**
@@ -69,12 +69,12 @@ void solve(double h, double epsabs, double epsrel, double T)
         
         
         // Print out the current values
-        std::cout << t;
+        printf("%g", t);
         for (int c = 0; c < d; ++c)
         {
-            std::cout << " " << y[c];
+            printf(" %g", y[c]);
         }
-        std::cout << std::endl;
+        printf("\n");
     }
 }
 
