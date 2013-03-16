@@ -1,0 +1,22 @@
+[General]
+Name=QObject with private pointer and properties
+Comment=C++ QObject subclass with a private D-pointer, properties and accessor functions
+Category=C++/Qt
+Language=C++
+Type=Class
+Files=Header,PrivateHeader,Implementation
+
+[Header]
+Name=Public Header
+File=class.h
+OutputFile={{ name }}.h
+
+[PrivateHeader]
+Name=Private Header
+File=class_p.h
+OutputFile={{ name }}_p.h
+
+[Implementation]
+Name=Implementation
+File=class.cpp
+OutputFile={{ name }}.cpp

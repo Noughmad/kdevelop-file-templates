@@ -1,0 +1,12 @@
+[General]
+Name=ODE Solver using GSL
+Comment=Solver for Ordinary Differential Equations using GSL
+Category=C/GSL
+Language=C
+Type=Other
+Files=Header
+
+[Header]
+Name=Header
+File=solver.h
+OutputFile={{ name }}.h

@@ -1,0 +1,12 @@
+[General]
+Name=QML Item
+Comment=Simple QML Item
+Category=QML/Graphics
+Language=QML
+Type=Class
+Files=Item
+
+[Item]
+Name=Item
+File=Item.qml
+OutputFile={{ name }}.qml
